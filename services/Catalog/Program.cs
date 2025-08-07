@@ -10,6 +10,8 @@ var app = builder.Build();
 
 app.MapDefaultEndpoints();
 
+app.UseMigration();
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
