@@ -3,6 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
 
 builder.AddNpgsqlDbContext<ProductDbContext>(connectionName: "catalogDb");
+builder.Services.AddScoped<ProductService>();
 
 builder.Services.AddOpenApi();
 
