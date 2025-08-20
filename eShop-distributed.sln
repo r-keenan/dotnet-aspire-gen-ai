@@ -11,9 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "ServiceD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{5854FF58-B8C5-05C6-5BF2-ACE42193F22B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket", "services\Basket\Basket.csproj", "{28AF6D0E-D1CD-4AE0-85CE-4EAE9E4B869D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket", "Basket\Basket.csproj", "{28AF6D0E-D1CD-4AE0-85CE-4EAE9E4B869D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog", "services\Catalog\Catalog.csproj", "{D755F648-502B-42DA-9173-1676EDDCA5C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog", "Catalog\Catalog.csproj", "{D755F648-502B-42DA-9173-1676EDDCA5C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -16,8 +16,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="../services/Basket/Basket.csproj" />
-		<ProjectReference Include="../services/Catalog/Catalog.csproj" />
+		<ProjectReference Include="../Basket/Basket.csproj" />
+		<ProjectReference Include="../Catalog/Catalog.csproj" />
 	</ItemGroup>
 
 </Project>
